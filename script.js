@@ -1,4 +1,4 @@
-const indice = 4
+const indice = 1771
 
 let a = 1;
 let b = 1;
@@ -14,7 +14,7 @@ console.log(c);
 
 let esPrimo = 2
 
-for (let i = 2; i < indice/2; i++) {
+for (let i = 2; i <= indice/2; i++) {
     if (indice%i == 0) {
         esPrimo = esPrimo + 1
     }
