@@ -36,3 +36,10 @@ if (esPrimo == 2) {
 } else {
     console.log('Primo: ', 'No');
 }
+
+
+console.log('log1');
+console.log('log1');
+console.log('log1');
+console.log('log1');
+console.log('log1');
