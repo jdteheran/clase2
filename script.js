@@ -5,8 +5,8 @@ let b = 1;
 let c = 0;
 
 for (let i = 0; i < indice; i++) {
-    c = a + b;
     a = b
     b = c
+    c = a + b;
     console.log(c);
 }
