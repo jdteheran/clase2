@@ -1,4 +1,4 @@
-const indice = 10
+const indice = 4
 
 let a = 1;
 let b = 1;
@@ -8,5 +8,23 @@ for (let i = 0; i < indice; i++) {
     a = b
     b = c
     c = a + b;
-    console.log(c);
+}
+
+console.log(c);
+
+let esPrimo = 2
+
+for (let i = 2; i < indice/2; i++) {
+    if (indice%i == 0) {
+        esPrimo = esPrimo + 1
+    }
+    if (esPrimo > 2) {
+        break;
+    }
+}
+
+if (esPrimo == 2) {
+    console.log('Primo: ', 'Sí');
+} else {
+    console.log('Primo: ', 'No');
 }
